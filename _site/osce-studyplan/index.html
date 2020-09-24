@@ -1,0 +1,602 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="pt" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>OSCE Study Plan - Blog do Albernaz</title>
+<meta name="description" content="Blog dedicado aos write-ups de ctfs e aos estudos para a certificações de segurança da informação.">
+
+
+  <meta name="author" content="Alb3rn4z">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Blog do Albernaz">
+<meta property="og:title" content="OSCE Study Plan">
+<meta property="og:url" content="http://localhost:4000/osce-studyplan/">
+
+
+  <meta property="og:description" content="Blog dedicado aos write-ups de ctfs e aos estudos para a certificações de segurança da informação.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/osce-studyplan/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Albernaz",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Blog do Albernaz Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--archive">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Blog do Albernaz
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/ctf-writeups">CTF Write-ups</a>
+            </li><li class="masthead__menu-item">
+              <a href="/osce-studyplan/">OSCE Study Plan</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/images/avatar.jpg" alt="Alb3rn4z" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Alb3rn4z</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Digital Forensic Analyst and Security enthusiastic.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Acompanhe no</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Brazil</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:eng.albernaz@gmail.com">
+            <meta itemprop="email" content="eng.albernaz@gmail.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">E-mail</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <div class="archive">
+    
+      <h1 id="page-title" class="page__title">OSCE Study Plan</h1>
+    
+    <h3 id="study-plan">Study Plan</h3>
+
+<hr />
+
+<p>I will update my Study Plan dialy. Download <a href="./Study_Plan.odt">here</a>.</p>
+
+<hr />
+
+<h3 id="osce-review-compilation">OSCE Review Compilation</h3>
+
+<hr />
+
+<p>Recommended readings before start study plan for OSCE certification.</p>
+
+<ol>
+  <li>
+    <p>https://www.doyler.net/security-not-included/osce-review-and-exam</p>
+  </li>
+  <li>
+    <p>https://tulpa-security.com/2017/07/18/288/ (Study Guide)</p>
+  </li>
+  <li>
+    <p>https://www.abatchy.com/2017/03/osce-study-plan (Study Guide)</p>
+  </li>
+  <li>
+    <p>OffSec Discord (https://discordapp.com/invite/VPFWfdt)</p>
+  </li>
+  <li>
+    <p>https://community.infosecinstitute.com/discussion/120656</p>
+  </li>
+  <li>
+    <p>https://dilsec.com/2017/06/01/offensive-security-ctp-course-osce-certification-review/</p>
+  </li>
+  <li>
+    <p>https://coffeegist.com/security/my-osce-review/</p>
+  </li>
+  <li>
+    <p>https://haveyousecured.blogspot.com/2017/06/offensive-security-osce-ctp-review.html</p>
+  </li>
+  <li>
+    <p>http://binholic.blogspot.com/2018/04/yet-another-osce-review.html</p>
+  </li>
+  <li>
+    <p>https://blog.badatsecurity.net/2018/09/07-yet-another-osce-review.html</p>
+  </li>
+  <li>
+    <p>https://jhalon.github.io/OSCE-Review/</p>
+  </li>
+  <li>
+    <p>https://h0mbre.github.io/#</p>
+  </li>
+  <li>
+    <p>https://epi052.gitlab.io/notes-to-self/blog/2020-05-13-osce-exam-practice-part-one/ (Start Guide)</p>
+  </li>
+  <li>
+    <p>https://www.youtube.com/watch?v=0n3Li63PwnQ (John Hammond Report Tips)</p>
+  </li>
+</ol>
+
+<hr />
+
+<h3 id="lab-setup">Lab Setup</h3>
+
+<hr />
+
+<p>Before Start I bought:</p>
+
+<p>1) VMWare License (I bought VMWare Workstation Pro 15 on ML)</p>
+
+<p>2) New colorful portable hard disk - center my courses and studies (John Hammond Tip)</p>
+
+<h3 id="vms">VMs</h3>
+
+<hr />
+
+<p>1) Kali 2020.3 updated</p>
+
+<p>2) Windows XP SP3 (32 bits) - Curso Major (103 ou 105)</p>
+<ul>
+  <li>Immunity Debugger installed</li>
+</ul>
+
+<p>3) Windows 7 SP1 (32 bits) - Download</p>
+
+<p>4) Windows 10 (64bits) - Curso Helvio (Shellcoding)</p>
+
+<p>Obs: Old Windows VMs images - https://archive.org/search.php?query=subject%3A%22IEVM%22</p>
+
+<h3 id="notes">Notes</h3>
+
+<hr />
+
+<p>1) CheryTree and SublimeText for basic notes</p>
+
+<p>2) For report automation: https://github.com/whoisflynn/OSCP-Exam-Report-Template</p>
+
+<h3 id="links-used-on-study-plan">Links used on Study Plan.</h3>
+
+<hr />
+
+<ol>
+  <li>
+    <p>Windows Exploit Development – Part 1: The Basics
+http://www.securitysift.com/windows-exploit-development-part-1-basics/</p>
+  </li>
+  <li>
+    <p>Corelan - Exploit Writing Tutorial - Part 1
+https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/</p>
+  </li>
+  <li>
+    <p>Windows Exploit Development – Part 2: Intro to Stack Overflow
+http://www.securitysift.com/windows-exploit-development-part-2-intro-stack-overflow/</p>
+  </li>
+  <li>
+    <p>Smash the stack for fun and profit
+http://phrack.org/issues/49/14.html#article</p>
+  </li>
+  <li>
+    <p>Vulnserver (Practice)</p>
+  </li>
+</ol>
+
+<p>http://www.thegreycorner.com/p/vulnserver.html</p>
+
+<p>http://resources.infosecinstitute.com/stack-based-buffer-overflow-tutorial-part-1-introduction/</p>
+
+<p>http://resources.infosecinstitute.com/stack-based-buffer-overflow-tutorial-part-2-exploiting-the-stack-overflow/</p>
+
+<p>http://resources.infosecinstitute.com/stack-based-buffer-overflow-tutorial-part-3-%E2%80%94-adding-shellcode/</p>
+
+<ol>
+  <li>
+    <p>OSCE Wallpaper
+http://i.imgur.com/Mr9pvq9.jpg</p>
+  </li>
+  <li>
+    <p>Online dissassembly
+https://www.onlinedisassembler.com/static/home/</p>
+  </li>
+  <li>
+    <p>Windows Exploit Development – Part 3: Changing Offsets and Rebased Modules
+http://www.securitysift.com/windows-exploit-development-part-3-changing-offsets-and-rebased-modules/</p>
+  </li>
+  <li>
+    <p>Exploit writing tutorial part 2 : Stack Based Overflows – jumping to shellcode
+https://www.corelan.be/index.php/2009/07/23/writing-buffer-overflow-exploits-a-quick-and-basic-tutorial-part-2/</p>
+  </li>
+  <li>
+    <p>Windows Exploit Development – Part 4: Locating Shellcode With Jumps
+http://www.securitysift.com/windows-exploit-development-part-4-locating-shellcode-jumps/</p>
+  </li>
+  <li>
+    <p>Spike Fuzzing (fuzzing OSCE)
+http://resources.infosecinstitute.com/intro-to-fuzzing/
+http://resources.infosecinstitute.com/fuzzer-automation-with-spike/</p>
+  </li>
+  <li>
+    <p>Exploit writing tutorial part 3 : SEH Based Exploits
+https://www.corelan.be/index.php/2009/07/25/writing-buffer-overflow-exploits-a-quick-and-basic-tutorial-part-3-seh/</p>
+  </li>
+  <li>
+    <p>Exploit writing tutorial part 3b : SEH Based Exploits – just another example
+https://www.corelan.be/index.php/2009/07/28/seh-based-exploit-writing-tutorial-continued-just-another-example-part-3b/</p>
+  </li>
+  <li>
+    <p>Windows Exploit Development – Part 6: SEH Exploits
+http://www.securitysift.com/windows-exploit-development-part-6-seh-exploits/</p>
+  </li>
+  <li>
+    <p>SEH Practice - Vulnserver
+http://resources.infosecinstitute.com/buffer-overflow-vulnserver/</p>
+  </li>
+  <li>
+    <p>Scape Egghunter
+http://www.hick.org/code/skape/papers/egghunt-shellcode.pdf</p>
+  </li>
+  <li>
+    <p>Exploit writing tutorial part 8 : Win32 Egg Hunting
+https://www.corelan.be/index.php/2010/01/09/exploit-writing-tutorial-part-8-win32-egg-hunting/</p>
+  </li>
+  <li>
+    <p>Windows Exploit Development – Part 5: Locating Shellcode With Egghunting
+http://www.securitysift.com/windows-exploit-development-part-5-locating-shellcode-egghunting</p>
+  </li>
+  <li>
+    <p>Exploit writing tutorial part 6 : Bypassing Stack Cookies, SafeSeh, SEHOP, HW DEP and ASLR
+https://www.corelan.be/index.php/2009/09/21/exploit-writing-tutorial-part-6-bypassing-stack-cookies-safeseh-hw-dep-and-aslr/</p>
+  </li>
+  <li>
+    <p>DEFCON 16: BackTrack Foo - From bug to 0day
+https://www.youtube.com/watch?v=gHISpAZiAm0</p>
+  </li>
+  <li>
+    <p>Badchars Practice Vulnserver
+https://resources.infosecinstitute.com/restricted-character-set-vulnserver/</p>
+  </li>
+  <li>
+    <p>Mona Tutorial
+https://www.corelan.be/index.php/2011/07/14/mona-py-the-manual/</p>
+  </li>
+  <li>
+    <p>Corelan Exploit writing tutorial part 9 : Introduction to Win32 shellcoding
+https://www.corelan.be/index.php/2010/02/25/exploit-writing-tutorial-part-9-introduction-to-win32-shellcoding/</p>
+  </li>
+  <li>
+    <p>Fuzzy Security Part 6: Writing W32 shellcode
+https://www.fuzzysecurity.com/tutorials/expDev/6.html</p>
+  </li>
+  <li>
+    <p>Windows Reverse Shell Shellcode I.
+http://sh3llc0d3r.com/windows-reverse-shell-shellcode-i/</p>
+  </li>
+  <li>
+    <p>Windows Shellcoding
+http://www.vividmachines.com/shellcode/shellcode.html#ws</p>
+  </li>
+  <li>
+    <p>Practice 0day exploits
+http://www.flexense.com/
+https://www.exploit-db.com/exploits/40455/ (exploit example)</p>
+  </li>
+  <li>
+    <p>LFI
+https://www.exploit-db.com/docs/40992.pdf</p>
+  </li>
+  <li>
+    <p>XSS
+https://excess-xss.com/</p>
+  </li>
+  <li>
+    <p>XSS 2
+https://www.veracode.com/security/xss</p>
+  </li>
+  <li>
+    <p>Writing Manual Shellcode by Hand
+https://www.exploit-db.com/download/17065</p>
+  </li>
+  <li>
+    <p>Bypassing AntiVirus Scanners
+https://dl.packetstormsecurity.net/papers/bypass/bypassing-av.pdf</p>
+  </li>
+  <li>
+    <p>Corelan Wallpapers OSCE
+https://github.com/corelan/wallpapers</p>
+  </li>
+  <li>
+    <p>FuzzySecurity tutorials
+https://www.fuzzysecurity.com/tutorials.html</p>
+  </li>
+  <li>
+    <p>Revisão conteúdo
+https://www.abatchy.com/2017/03/osce-study-plan#offline-study-resources</p>
+  </li>
+  <li>
+    <p>Practice Reference
+https://jhalon.github.io/OSCE-Review/</p>
+  </li>
+  <li>
+    <p>Revisão conteúdo
+https://www.abatchy.com/2017/03/osce-study-plan#offline-study-resources</p>
+  </li>
+</ol>
+
+
+  </div>
+</div>
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Acompanhe no</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Albernaz. Desenvolvido com <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

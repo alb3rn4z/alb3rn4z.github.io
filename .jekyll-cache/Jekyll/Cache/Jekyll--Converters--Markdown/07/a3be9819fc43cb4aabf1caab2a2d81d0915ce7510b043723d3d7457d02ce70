@@ -1,0 +1,264 @@
+I"�<h3 id="study-plan">Study Plan</h3>
+
+<hr />
+
+<p>I will update my Study Plan dialy. Download <a href="./Study_Plan.odt">here</a>.</p>
+
+<hr />
+
+<h3 id="osce-review-compilation">OSCE Review Compilation</h3>
+
+<hr />
+
+<p>Recommended readings before start study plan for OSCE certification.</p>
+
+<ol>
+  <li>
+    <p>https://www.doyler.net/security-not-included/osce-review-and-exam</p>
+  </li>
+  <li>
+    <p>https://tulpa-security.com/2017/07/18/288/ (Study Guide)</p>
+  </li>
+  <li>
+    <p>https://www.abatchy.com/2017/03/osce-study-plan (Study Guide)</p>
+  </li>
+  <li>
+    <p>OffSec Discord (https://discordapp.com/invite/VPFWfdt)</p>
+  </li>
+  <li>
+    <p>https://community.infosecinstitute.com/discussion/120656</p>
+  </li>
+  <li>
+    <p>https://dilsec.com/2017/06/01/offensive-security-ctp-course-osce-certification-review/</p>
+  </li>
+  <li>
+    <p>https://coffeegist.com/security/my-osce-review/</p>
+  </li>
+  <li>
+    <p>https://haveyousecured.blogspot.com/2017/06/offensive-security-osce-ctp-review.html</p>
+  </li>
+  <li>
+    <p>http://binholic.blogspot.com/2018/04/yet-another-osce-review.html</p>
+  </li>
+  <li>
+    <p>https://blog.badatsecurity.net/2018/09/07-yet-another-osce-review.html</p>
+  </li>
+  <li>
+    <p>https://jhalon.github.io/OSCE-Review/</p>
+  </li>
+  <li>
+    <p>https://h0mbre.github.io/#</p>
+  </li>
+  <li>
+    <p>https://epi052.gitlab.io/notes-to-self/blog/2020-05-13-osce-exam-practice-part-one/ (Start Guide)</p>
+  </li>
+  <li>
+    <p>https://www.youtube.com/watch?v=0n3Li63PwnQ (John Hammond Report Tips)</p>
+  </li>
+</ol>
+
+<hr />
+
+<h3 id="lab-setup">Lab Setup</h3>
+
+<hr />
+
+<p>Before Start I bought:</p>
+
+<p>1) VMWare License (I bought VMWare Workstation Pro 15 on ML)</p>
+
+<p>2) New colorful portable hard disk - center my courses and studies (John Hammond Tip)</p>
+
+<h3 id="vms">VMs</h3>
+
+<hr />
+
+<p>1) Kali 2020.3 updated</p>
+
+<p>2) Windows XP SP3 (32 bits) - Curso Major (103 ou 105)</p>
+<ul>
+  <li>Immunity Debugger installed</li>
+</ul>
+
+<p>3) Windows 7 SP1 (32 bits) - Download</p>
+
+<p>4) Windows 10 (64bits) - Curso Helvio (Shellcoding)</p>
+
+<p>Obs: Old Windows VMs images - https://archive.org/search.php?query=subject%3A%22IEVM%22</p>
+
+<h3 id="notes">Notes</h3>
+
+<hr />
+
+<p>1) CheryTree and SublimeText for basic notes</p>
+
+<p>2) For report automation: https://github.com/whoisflynn/OSCP-Exam-Report-Template</p>
+
+<h3 id="links-used-on-study-plan">Links used on Study Plan.</h3>
+
+<hr />
+
+<ol>
+  <li>
+    <p>Windows Exploit Development – Part 1: The Basics
+http://www.securitysift.com/windows-exploit-development-part-1-basics/</p>
+  </li>
+  <li>
+    <p>Corelan - Exploit Writing Tutorial - Part 1
+https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/</p>
+  </li>
+  <li>
+    <p>Windows Exploit Development – Part 2: Intro to Stack Overflow
+http://www.securitysift.com/windows-exploit-development-part-2-intro-stack-overflow/</p>
+  </li>
+  <li>
+    <p>Smash the stack for fun and profit
+http://phrack.org/issues/49/14.html#article</p>
+  </li>
+  <li>
+    <p>Vulnserver (Practice)</p>
+  </li>
+</ol>
+
+<p>http://www.thegreycorner.com/p/vulnserver.html</p>
+
+<p>http://resources.infosecinstitute.com/stack-based-buffer-overflow-tutorial-part-1-introduction/</p>
+
+<p>http://resources.infosecinstitute.com/stack-based-buffer-overflow-tutorial-part-2-exploiting-the-stack-overflow/</p>
+
+<p>http://resources.infosecinstitute.com/stack-based-buffer-overflow-tutorial-part-3-%E2%80%94-adding-shellcode/</p>
+
+<ol>
+  <li>
+    <p>OSCE Wallpaper
+http://i.imgur.com/Mr9pvq9.jpg</p>
+  </li>
+  <li>
+    <p>Online dissassembly
+https://www.onlinedisassembler.com/static/home/</p>
+  </li>
+  <li>
+    <p>Windows Exploit Development – Part 3: Changing Offsets and Rebased Modules
+http://www.securitysift.com/windows-exploit-development-part-3-changing-offsets-and-rebased-modules/</p>
+  </li>
+  <li>
+    <p>Exploit writing tutorial part 2 : Stack Based Overflows – jumping to shellcode
+https://www.corelan.be/index.php/2009/07/23/writing-buffer-overflow-exploits-a-quick-and-basic-tutorial-part-2/</p>
+  </li>
+  <li>
+    <p>Windows Exploit Development – Part 4: Locating Shellcode With Jumps
+http://www.securitysift.com/windows-exploit-development-part-4-locating-shellcode-jumps/</p>
+  </li>
+  <li>
+    <p>Spike Fuzzing (fuzzing OSCE)
+http://resources.infosecinstitute.com/intro-to-fuzzing/
+http://resources.infosecinstitute.com/fuzzer-automation-with-spike/</p>
+  </li>
+  <li>
+    <p>Exploit writing tutorial part 3 : SEH Based Exploits
+https://www.corelan.be/index.php/2009/07/25/writing-buffer-overflow-exploits-a-quick-and-basic-tutorial-part-3-seh/</p>
+  </li>
+  <li>
+    <p>Exploit writing tutorial part 3b : SEH Based Exploits – just another example
+https://www.corelan.be/index.php/2009/07/28/seh-based-exploit-writing-tutorial-continued-just-another-example-part-3b/</p>
+  </li>
+  <li>
+    <p>Windows Exploit Development – Part 6: SEH Exploits
+http://www.securitysift.com/windows-exploit-development-part-6-seh-exploits/</p>
+  </li>
+  <li>
+    <p>SEH Practice - Vulnserver
+http://resources.infosecinstitute.com/buffer-overflow-vulnserver/</p>
+  </li>
+  <li>
+    <p>Scape Egghunter
+http://www.hick.org/code/skape/papers/egghunt-shellcode.pdf</p>
+  </li>
+  <li>
+    <p>Exploit writing tutorial part 8 : Win32 Egg Hunting
+https://www.corelan.be/index.php/2010/01/09/exploit-writing-tutorial-part-8-win32-egg-hunting/</p>
+  </li>
+  <li>
+    <p>Windows Exploit Development – Part 5: Locating Shellcode With Egghunting
+http://www.securitysift.com/windows-exploit-development-part-5-locating-shellcode-egghunting</p>
+  </li>
+  <li>
+    <p>Exploit writing tutorial part 6 : Bypassing Stack Cookies, SafeSeh, SEHOP, HW DEP and ASLR
+https://www.corelan.be/index.php/2009/09/21/exploit-writing-tutorial-part-6-bypassing-stack-cookies-safeseh-hw-dep-and-aslr/</p>
+  </li>
+  <li>
+    <p>DEFCON 16: BackTrack Foo - From bug to 0day
+https://www.youtube.com/watch?v=gHISpAZiAm0</p>
+  </li>
+  <li>
+    <p>Badchars Practice Vulnserver
+https://resources.infosecinstitute.com/restricted-character-set-vulnserver/</p>
+  </li>
+  <li>
+    <p>Mona Tutorial
+https://www.corelan.be/index.php/2011/07/14/mona-py-the-manual/</p>
+  </li>
+  <li>
+    <p>Corelan Exploit writing tutorial part 9 : Introduction to Win32 shellcoding
+https://www.corelan.be/index.php/2010/02/25/exploit-writing-tutorial-part-9-introduction-to-win32-shellcoding/</p>
+  </li>
+  <li>
+    <p>Fuzzy Security Part 6: Writing W32 shellcode
+https://www.fuzzysecurity.com/tutorials/expDev/6.html</p>
+  </li>
+  <li>
+    <p>Windows Reverse Shell Shellcode I.
+http://sh3llc0d3r.com/windows-reverse-shell-shellcode-i/</p>
+  </li>
+  <li>
+    <p>Windows Shellcoding
+http://www.vividmachines.com/shellcode/shellcode.html#ws</p>
+  </li>
+  <li>
+    <p>Practice 0day exploits
+http://www.flexense.com/
+https://www.exploit-db.com/exploits/40455/ (exploit example)</p>
+  </li>
+  <li>
+    <p>LFI
+https://www.exploit-db.com/docs/40992.pdf</p>
+  </li>
+  <li>
+    <p>XSS
+https://excess-xss.com/</p>
+  </li>
+  <li>
+    <p>XSS 2
+https://www.veracode.com/security/xss</p>
+  </li>
+  <li>
+    <p>Writing Manual Shellcode by Hand
+https://www.exploit-db.com/download/17065</p>
+  </li>
+  <li>
+    <p>Bypassing AntiVirus Scanners
+https://dl.packetstormsecurity.net/papers/bypass/bypassing-av.pdf</p>
+  </li>
+  <li>
+    <p>Corelan Wallpapers OSCE
+https://github.com/corelan/wallpapers</p>
+  </li>
+  <li>
+    <p>FuzzySecurity tutorials
+https://www.fuzzysecurity.com/tutorials.html</p>
+  </li>
+  <li>
+    <p>Revisão conteúdo
+https://www.abatchy.com/2017/03/osce-study-plan#offline-study-resources</p>
+  </li>
+  <li>
+    <p>Practice Reference
+https://jhalon.github.io/OSCE-Review/</p>
+  </li>
+  <li>
+    <p>Revisão conteúdo
+https://www.abatchy.com/2017/03/osce-study-plan#offline-study-resources</p>
+  </li>
+</ol>
+
+:ET

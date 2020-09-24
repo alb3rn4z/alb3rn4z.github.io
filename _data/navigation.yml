@@ -1,0 +1,12 @@
+# main links
+main:
+  #- title: "Quick-Start Guide"
+  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+   - title: "About"
+     url: /about
+   - title: "CTF Write-ups"
+     url: /ctf-writeups
+   - title: "OSCE Study Plan"
+     url: /osce-studyplan/
+  # - title: "Sitemap"
+  #   url: /sitemap/
